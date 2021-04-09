@@ -8,7 +8,7 @@ function changeBackground()
     var randomNum = Math.floor(Math.random() * files.length);
     console.log("This is the random number generated: " + randomNum);
     // now return file at randomNum index
-    var file = files[randomNum];
+    var file = 'backgrounds/' + files[randomNum];
     console.log("This is the randomly selected filename: " + file);
     return file;
 }
